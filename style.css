@@ -138,17 +138,17 @@ header nav ul li a.active {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 800px;
+    height: 600px;
 
 }
 
 .table-container{
     text-align: center;
+    font-size: 1.2rem;
 }
 
 .table-container img{
-
-    height: 500px;
+    height: 400px;
     width: 100%;
 }
 .para-2{
@@ -172,7 +172,6 @@ header nav ul li a.active {
 }
 
 .img-1 img{
-    
     width: 300px;
     height: 300px;
 }
@@ -187,9 +186,11 @@ header nav ul li a.active {
     padding-left: 40rem;
     color: #333;
     padding-top: 4rem; */
+    margin-bottom: 2rem;
     width: 100%;
     text-align: center;
     margin-top: 5rem;
+    font-size: 1.5rem;
 
 }
 .brush-image-section-1{
@@ -206,7 +207,7 @@ header nav ul li a.active {
     height: 80vh;
     margin-left: 25rem;
     padding-top: 3rem; */
-    width:100%;
+    width:50%;
     height: 500px;
 }
 
@@ -218,6 +219,16 @@ header nav ul li a.active {
     color:#ffffff;
     justify-content: center;
     align-items: center;
+    margin-top: 5rem;
+}
+
+.about-us p{
+    margin-top:2rem;
+}
+
+.about-child hr{
+    color: #000;
+    border-bottom: 3px  solid #963
 }
 /* 
 .detail-1 h2{
@@ -256,6 +267,8 @@ header nav ul li a.active {
     align-items: center;
     height: auto;
     flex-wrap: wrap;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
 }
 
 .location-logo- i{
@@ -304,130 +317,91 @@ header nav ul li a.active {
     }
 }
 
-/* @media only screen and (max-width: 416px){
-    
+ @media only screen and (max-width: 416px){
     .cover-img{
-    display: flex;
-    height: 65vh;
+        width: 100%;
+        height: 300px;
     }
 
     .description{
-    padding-left: 2rem;
-    padding-bottom: 3rem;
-    }
-
-    .hone-section{
-    display: inline;
-    position: relative;
-    top: 3rem;
-    left: 0.4rem;
-    font-size:1.3rem ;
-    
-    }
-
-    .Main-topic{
-    display: inline;
-    position: relative;
-    left:0.3rem;
-    top: 6rem;
-    }
-
-    .paragraph-1{
-    display: inline;
-    position: relative;
-    top:5rem;
-    left: 0.1rem;
-    font-size: smaller;
-    }
-    .list-1{
-      display: inline;
-      position: relative;
-      top:5rem;
-      left: 0.1rem;
-      font-size: smaller;
-    }
-
-    .table-top{
-      display: inline;
-      position: relative;
-      top:5rem;
-      left: 0.1rem;
-      font-size: smaller;
-      }
-
-     .Full-table{
-      position: relative;
-      top: 7rem;
-      right: 25rem;
-      }
-
-      .para-2{
-        display: flex;
-        font-size: small;
-        margin-left: 1rem;
-    
-      }
-     
-      .icon-sec{
-      display: inline;
        position: relative;
-       top: 8rem;
-       height: 20vh;
-       }
-
-       .icon-sec .img-1{
-        width: 70%;
-        margin-left: 1.1rem;
-       }
-
-       .brush-descrip{
-        display: inline;
-        position: relative;
-        top: 10rem;
-        left: 0.4rem;
-       }
-
-       .brush-image-section-1{
-        display: inline;
-        position: relative;
-        top: 8rem;
-        right: 22rem;
-       }
-       .brush-image-section-1 img {
-        width: 160%;
-       }
-
-       .about-us{
-        width: 258%;
-        height: 50vh;
-       }
-
-       .detail-1{
-        font-size: 1.2rem;
-       }
-
-       .details-2 p{
-        font-size: 1.3rem;
-       }
-
-       .details-3{
-        font-size: 1.1rem;
-       }
-
-       .logo-section3{
-        margin-left: 5rem;
-       }
-
-       .location-logo- i{
-        font-size: 1.3rem;
-       }
-       
-       .mail-logo i{
-        font-size: 1.3rem;
-       }
-
-       .phone-logo i{
-        font-size: 1.3rem;
-       }
+       bottom: 10rem;
+       font-size: x-small;
     }
-   */
+
+    .child h5{
+        margin-bottom: 1rem;
+        margin-left: 5.6rem;
+    }
+  
+    .child h2{
+        margin-left:2.8rem;
+    }
+
+    .child p{
+        margin-left: 1rem;
+    }
+    .child ul{
+        margin-left: 1rem;
+    }
+
+    .Full-table{
+        position: relative;
+        top: 4rem;
+    }
+    .Full-table img{
+        width: 95%;
+        height: 200px;
+    }
+
+    .Full-table h4{
+        font-size:smaller ;
+    }
+
+    .Full-table h3{
+        font-size: x-small;
+        color: green;
+    }
+
+    .icon-sec{
+        position: relative;
+        bottom: 3rem;
+    }
+
+    .brush-descrip{
+        font-size: large;
+        position: relative;
+        bottom: 5rem;
+    }
+
+    .brush-image-section-1 img{
+        width: 100%;
+        height: 300px;position: relative;
+        bottom: 4rem;
+    }
+
+    .about-us{
+       position: relative;
+       bottom: 3rem;
+       height: 350px;
+    }
+
+    .about-child{
+        font-size: smaller;
+    }
+
+    .logo-section3{
+        position: relative;
+        bottom: 3rem;
+    }
+
+    .phone-logo i{
+       position: relative;
+       right: 10.8rem;
+    }
+
+    .logo-section3{
+        gap: 2rem;
+        
+    }
+ }
